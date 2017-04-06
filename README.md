@@ -1,11 +1,10 @@
 # regexpDemo
-
-```shell
+### è¿è¡Œ
+``` shell
 str.match(regexp);
-
->µ±Ò»¸ö×Ö·û´®ÓëÒ»¸öÕýÔò±í´ïÊ½Æ¥ÅäÊ±£¬ match()·½·¨¼ìË÷Æ¥ÅäÏî¡£
-```shell
+>å½“ä¸€ä¸ªå­—ç¬¦ä¸²ä¸Žä¸€ä¸ªæ­£åˆ™è¡¨è¾¾å¼åŒ¹é…æ—¶ï¼Œ match()æ–¹æ³•æ£€ç´¢åŒ¹é…é¡¹ã€‚
+### è¿è¡Œ
+``` shell
 regexObj.test(str);
-
->test() ·½·¨Ö´ÐÐÒ»¸ö¼ìË÷£¬ÓÃÀ´²é¿´ÕýÔò±í´ïÊ½ÓëÖ¸¶¨µÄ×Ö·û´®ÊÇ·ñÆ¥Åä¡£·µ»Ø true »ò false¡£
-License MIT
+>test() æ–¹æ³•æ‰§è¡Œä¸€ä¸ªæ£€ç´¢ï¼Œç”¨æ¥æŸ¥çœ‹æ­£åˆ™è¡¨è¾¾å¼ä¸ŽæŒ‡å®šçš„å­—ç¬¦ä¸²æ˜¯å¦åŒ¹é…ã€‚è¿”å›ž true æˆ– falseã€‚
+### License MIT
