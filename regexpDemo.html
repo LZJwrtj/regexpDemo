@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>match/text</title>
+</head>
+<body>
+<script>
+    var str = 'todayisgoodday';
+    var regx1 = (/good/);
+    var regx2 = (/hello/);
+    var res1 = str.match(regx1); //true
+    var res2 = str.match(regx2); //false
+    var res3 = regx1.test(str);  //true
+    var res4 = regx2.test(str);  //false
+    if (res1) {
+        console.log('hello world!')
+    }else {
+        console.log('匹配失败！请查证后再次匹配！')
+    }
+    if (res2){
+        console.log('HELLO WORLD!')
+    }else {
+        console.log('匹配失败！请查证后再次匹配！')
+    }
+    if (res3) {
+        console.log('你好')
+    }else {
+        console.log('匹配失败！请查证后再次匹配！')
+    }
+    if (res4){
+        console.log('大家好')
+    }else {
+        console.log('匹配失败！请查证后再次匹配！')
+    }
+</script>
+</body>
+</html>
